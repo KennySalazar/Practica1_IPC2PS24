@@ -12,16 +12,16 @@ import java.util.ArrayList;
  *
  * @author DAVID
  */
-public class LectorPrevio {
-
+public class cargaDeLibros {
+    
     private FileReader archivo;
     private BufferedReader lector;
     private ArrayList<Libro> biblio;
-
-    public LectorPrevio() {
-        biblio = new ArrayList<>();
+    
+    public cargaDeLibros(){
+        this.biblio = new ArrayList<>();
     }
-
+    
     public void leer() {
         try {
             //archivo = new FileReader("C:\\Users\\DAVID\\Desktop\\practica 1\\Practica1_IPC2PS24\\entrada\\pruebaa.txt");
@@ -49,10 +49,11 @@ public class LectorPrevio {
                         String[] cadena = texto.split(":");
                         cantidad = cadena[1].trim();
                     }
-                     */
+                    */
+                    
                     switch (caso) {
                         case 0:
-                            if (texto.equals("")) {
+                            if(texto.equals("")){
                                 break;
                             }
                             caso = 1;
@@ -60,7 +61,7 @@ public class LectorPrevio {
                         case 1:
                             String[] cadenaT = texto.split("TITULO:");
                             titulo = cadenaT[1].trim();
-                            caso = 2;
+                            caso = 2; 
                             break;
                         case 2:
                             String[] cadenaA = texto.split("AUTOR:");
@@ -85,7 +86,7 @@ public class LectorPrevio {
                     }
 
                 }
-
+                
             } else {
                 System.out.println("archivo no redy xD");
             }
@@ -93,9 +94,9 @@ public class LectorPrevio {
             System.out.println("Error al leer el archivo" + e);
         }
     }
-
+    
     public static void main(String[] args) {
-        LectorPrevio lector = new LectorPrevio();
+        cargaDeLibros lector = new cargaDeLibros();
         lector.leer();
     }
 }
