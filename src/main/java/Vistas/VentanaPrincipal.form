@@ -35,7 +35,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                  <Component id="jTabbedPane1" pref="622" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
@@ -156,7 +156,7 @@
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                       <Table columnCount="4" rowCount="6">
-                        <Column editable="true" title="Title 1" type="java.lang.Object">
+                        <Column editable="true" title="Carnet" type="java.lang.Object">
                           <Data value="1"/>
                           <Data value="2"/>
                           <Data value="23"/>
@@ -164,7 +164,7 @@
                           <Data value="null"/>
                           <Data value="null"/>
                         </Column>
-                        <Column editable="true" title="Title 2" type="java.lang.Object">
+                        <Column editable="true" title="Nombre" type="java.lang.Object">
                           <Data value="1212"/>
                           <Data value="232"/>
                           <Data value="2323"/>
@@ -172,7 +172,7 @@
                           <Data value="null"/>
                           <Data value="null"/>
                         </Column>
-                        <Column editable="true" title="Title 3" type="java.lang.Object">
+                        <Column editable="true" title="Carrera" type="java.lang.Object">
                           <Data value="1212"/>
                           <Data value="2323"/>
                           <Data value="343"/>
@@ -180,7 +180,7 @@
                           <Data value="null"/>
                           <Data value="null"/>
                         </Column>
-                        <Column editable="true" title="Title 4" type="java.lang.Object">
+                        <Column editable="true" title="Fecha de Nacimiento" type="java.lang.Object">
                           <Data value="1212"/>
                           <Data value="2323"/>
                           <Data value="dews"/>
@@ -241,22 +241,22 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="716" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="jDesktopPane5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="591" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="592" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="jDesktopPane5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -268,21 +268,28 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="nuevoLibroButton" min="-2" pref="168" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                                  <Component id="editarLibro" min="-2" pref="164" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                                  <Component id="eliminarLibro" min="-2" pref="173" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="nuevoLibroButton" min="-2" pref="168" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="editarLibro" min="-2" pref="164" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                                          <Component id="eliminarLibro" min="-2" pref="173" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="labelBusquedaLibro" alignment="0" min="-2" pref="216" max="-2" attributes="0"/>
+                                      <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <Component id="labelBusquedaLibro" alignment="0" min="-2" pref="216" max="-2" attributes="0"/>
-                              <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" pref="706" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="15" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -299,9 +306,9 @@
                           <Component id="labelBusquedaLibro" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="18" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -345,8 +352,8 @@
                     <Component class="javax.swing.JTable" name="jTable2">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                          <Table columnCount="4" rowCount="6">
-                            <Column editable="true" title="Title 1" type="java.lang.Object">
+                          <Table columnCount="6" rowCount="6">
+                            <Column editable="true" title="T&#xed;tulo" type="java.lang.Object">
                               <Data value="1"/>
                               <Data value="2"/>
                               <Data value="23"/>
@@ -354,7 +361,7 @@
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
-                            <Column editable="true" title="Title 2" type="java.lang.Object">
+                            <Column editable="true" title="Autor" type="java.lang.Object">
                               <Data value="1212"/>
                               <Data value="232"/>
                               <Data value="2323"/>
@@ -362,7 +369,7 @@
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
-                            <Column editable="true" title="Title 3" type="java.lang.Object">
+                            <Column editable="true" title="C&#xf3;digo" type="java.lang.Object">
                               <Data value="1212"/>
                               <Data value="2323"/>
                               <Data value="343"/>
@@ -370,7 +377,7 @@
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
-                            <Column editable="true" title="Title 4" type="java.lang.Object">
+                            <Column editable="true" title="Cantidad de Copias" type="java.lang.Object">
                               <Data value="1212"/>
                               <Data value="2323"/>
                               <Data value="dews"/>
@@ -378,10 +385,22 @@
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
+                            <Column editable="true" title="Fercha de Publicaci&#xf3;n" type="java.lang.Object"/>
+                            <Column editable="true" title="Editorial" type="java.lang.Object"/>
                           </Table>
                         </Property>
                         <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
                           <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
                             <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
                               <Title/>
                               <Editor/>
