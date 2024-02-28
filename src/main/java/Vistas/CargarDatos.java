@@ -4,6 +4,11 @@
  */
 package Vistas;
 
+import date_Base.fileReader;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Kenny
@@ -89,6 +94,17 @@ public class CargarDatos extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         //metodo para cargar datos
+        fileReader FR = new fileReader();
+        try {
+            FR.abrirChosser();
+        } catch (IOException ex) {
+            Logger.getLogger(CargarDatos.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        VentanaPrincipal principal = new VentanaPrincipal();
+        principal.setVisible(true);
+        principal.setLocationRelativeTo(null);
+        principal.setResizable(false);
+        this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
